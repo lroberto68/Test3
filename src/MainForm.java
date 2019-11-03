@@ -79,7 +79,7 @@ public class MainForm {
 			lblNewLabel.setText(Integer.toString(p.getEta()));
 		}
 		catch(Exception e1){
-			JOptionPane.showMessageDialog(null,"il valore inserito non è numerico","errore",JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null,"il valore inserito non è intero, numerico","errore",JOptionPane.ERROR_MESSAGE);
 			//e1.printStackTrace();
 		}
 	}
